@@ -1,0 +1,15 @@
+virtualRepository('mvn-virtual') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'maven-2-default'
+  repositories (['mvn-release', 'mvn-remote', 'mvn-medallia-remote', 'mvn-medallia-remote-releases', 'mvn-medallia-remote-public-snapshots', 'mvn-medallia-remote-3rd-parties', 'mvn-medallia-remote-legacy', 'mvn-3rd-party'])
+  defaultDeploymentRepo ''
+  artifactoryRequestsCanRetrieveRemoteArtifacts false
+
+  packageType 'maven'
+
+  pomRepositoryReferencesCleanupPolicy 'discard_active_reference'
+  keyPair ''
+}
