@@ -1,0 +1,98 @@
+security {
+  permissions {
+    conflictResolutionPolicy 'OVERRIDE'
+    permission('mvn-super-user') {
+      includesPattern '**'
+      excludesPattern ''
+      anyLocal false
+      anyRemote false
+      anyDistribution false
+      repositories (['mvn-3rd-party', 'mvn-release', 'mvn-dev'])
+      users {
+        'fowler' (['read', 'deploy', 'annotate'])
+      }
+      groups {
+        'local-dev' (['read', 'deploy', 'annotate'])
+      }
+    }
+    permission('no-override-anything') {
+      includesPattern '**'
+      excludesPattern ''
+      anyLocal true
+      anyRemote true
+      anyDistribution true
+      repositories (['ANY'])
+      users {
+      }
+      groups {
+      }
+    }
+    permission('local-dev-only-upload') {
+      includesPattern '**'
+      excludesPattern ''
+      anyLocal false
+      anyRemote false
+      anyDistribution false
+      repositories (['npm-dev', 'generic-dev', 'yum-dev', 'docker-dev', 'mvn-dev'])
+      users {
+      }
+      groups {
+        'local-dev-only' (['read', 'deploy', 'annotate'])
+      }
+    }
+    permission('read-only') {
+      includesPattern '**'
+      excludesPattern ''
+      anyLocal true
+      anyRemote true
+      anyDistribution true
+      repositories (['ANY'])
+      users {
+      }
+      groups {
+        'local-dev-only' (['read'])
+      }
+    }
+    permission('kampyle-user') {
+      includesPattern '**'
+      excludesPattern ''
+      anyLocal false
+      anyRemote false
+      anyDistribution false
+      repositories (['docker-kampyle'])
+      users {
+        'kampyle' (['read', 'delete', 'deploy', 'manage', 'annotate'])
+      }
+      groups {
+      }
+    }
+    permission('Anything') {
+      includesPattern '**'
+      excludesPattern ''
+      anyLocal true
+      anyRemote true
+      anyDistribution true
+      repositories (['ANY'])
+      users {
+        'dle@medallia.com' (['read', 'delete', 'deploy', 'manage', 'annotate'])
+        'fowler' (['read', 'deploy', 'annotate'])
+        'anonymous' (['read'])
+      }
+      groups {
+      }
+    }
+    permission('Any Remote') {
+      includesPattern '**'
+      excludesPattern ''
+      anyLocal false
+      anyRemote true
+      anyDistribution false
+      repositories (['ANY REMOTE'])
+      users {
+        'anonymous' (['read', 'deploy'])
+      }
+      groups {
+      }
+    }
+  }
+}
