@@ -1,0 +1,25 @@
+security {
+  groups {
+    conflictResolutionPolicy 'OVERRIDE'
+    group('local-dev-only') {
+      description 'users in this group should only be allow to upload to dev.'
+      autoJoin true
+    }
+    group('readers') {
+      description 'A group for read-only users'
+      autoJoin true
+    }
+    group('super-admin') {
+      description ''
+      autoJoin false
+    }
+    group('local-dev') {
+      description 'Local development group.'
+      autoJoin true
+    }
+    group('pipeline') {
+      description 'Pipeline group.'
+      autoJoin false
+    }
+ }
+}
