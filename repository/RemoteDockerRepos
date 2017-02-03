@@ -1,0 +1,80 @@
+remoteRepository('docker-medallia-remote') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'simple-default'
+  propertySets (['artifactory'])
+  archiveBrowsingEnabled false
+  blackedOut false
+  url 'https://docker.m8s.io'
+  username 'bamboo'
+  password //Dont forget to put password here
+  proxy ''
+  hardFail false
+  offline false
+  storeArtifactsLocally true
+  socketTimeoutMillis 15000
+  enableCookieManagement false
+  allowAnyHostAuth false
+  localAddress ''
+  retrievalCachePeriodSecs 600
+  missedRetrievalCachePeriodSecs 1800
+  failedRetrievalCachePeriodSecs 0
+  unusedArtifactsCleanupEnabled false
+  unusedArtifactsCleanupPeriodHours 0
+  shareConfiguration false
+  synchronizeProperties true
+  assumedOfflinePeriodSecs 300
+
+  packageType 'docker'
+
+  enableTokenAuthentication true
+  forceDockerAuthentication 
+
+
+  reportStatistics false
+  syncProperties false
+  listRemoteFolderItems false
+  sourceAbsenceDetection false
+}
+remoteRepository('docker-remote') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'simple-default'
+  propertySets (['artifactory'])
+  archiveBrowsingEnabled false
+  blackedOut false
+  url 'https://registry-1.docker.io/'
+  username ''
+  password //Dont forget to put password here
+  proxy ''
+  hardFail false
+  offline false
+  storeArtifactsLocally true
+  socketTimeoutMillis 15000
+  enableCookieManagement false
+  allowAnyHostAuth false
+  localAddress ''
+  retrievalCachePeriodSecs 600
+  missedRetrievalCachePeriodSecs 1800
+  failedRetrievalCachePeriodSecs 0
+  unusedArtifactsCleanupEnabled false
+  unusedArtifactsCleanupPeriodHours 0
+  shareConfiguration false
+  synchronizeProperties false
+  assumedOfflinePeriodSecs 300
+
+  packageType 'docker'
+
+  enableTokenAuthentication true
+  forceDockerAuthentication 
+
+
+  reportStatistics false
+  syncProperties false
+  listRemoteFolderItems false
+  sourceAbsenceDetection false
+}
