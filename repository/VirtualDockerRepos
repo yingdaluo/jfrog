@@ -1,0 +1,14 @@
+virtualRepository('docker-virtual') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'simple-default'
+  repositories (['docker-release', 'docker-medallia-remote', 'docker-remote'])
+  defaultDeploymentRepo ''
+  artifactoryRequestsCanRetrieveRemoteArtifacts false
+
+  packageType 'docker'
+
+  forceDockerAuthentication 
+}
