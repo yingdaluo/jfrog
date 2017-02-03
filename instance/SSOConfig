@@ -1,0 +1,8 @@
+sso {
+  http {
+    httpSsoProxied false
+    remoteUserRequestVariable 'REMOTE_USER'
+    autoUserCreation true
+    allowUserToAccessProfile false
+  }
+}
