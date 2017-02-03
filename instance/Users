@@ -1,0 +1,205 @@
+security {
+  users {
+    conflictResolutionPolicy 'OVERRIDE'
+    user('lreade@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('afung@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('dmadeira@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('pstrashkin@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('asequeira@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('karora@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('jlogan@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('areid@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('dmartinez@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('jmrodriguez@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('erodrigues@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('guillermo@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('ayeager@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('loniszczuk@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('benjaminj@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('svigneswaran@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('jzhou@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('mpons@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('ktang@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('anand@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('ygenin@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('kulathep@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('datar@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['local-dev-only', 'readers', 'local-dev'])
+    }
+    user('yluo@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+    user('nasmar@medallia.com') {
+      email ''
+      password ''
+      admin false
+      profileUpdatable true
+      internalPasswordDisabled true
+      groups (['readers', 'local-dev-only', 'local-dev'])
+    }
+  }
+}
