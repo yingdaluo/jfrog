@@ -1,0 +1,80 @@
+localRepository('docker-dev') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'simple-default'
+  propertySets (['artifactory'])
+  archiveBrowsingEnabled false
+  blackedOut false
+
+  packageType 'docker'
+
+  dockerApiVersion 'V2'
+  forceDockerAuthentication 
+
+}
+localRepository('docker-kampyle') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'simple-default'
+  propertySets (['artifactory'])
+  archiveBrowsingEnabled false
+  blackedOut false
+
+  packageType 'docker'
+
+  dockerApiVersion 'V2'
+  forceDockerAuthentication 
+
+}
+localRepository('docker-release') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'simple-default'
+  propertySets (['artifactory'])
+  archiveBrowsingEnabled false
+  blackedOut false
+
+  packageType 'docker'
+
+  dockerApiVersion 'V2'
+  forceDockerAuthentication 
+
+}
+localRepository('docker-temp') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'simple-default'
+  propertySets (['artifactory'])
+  archiveBrowsingEnabled false
+  blackedOut false
+
+  packageType 'docker'
+
+  dockerApiVersion 'V2'
+  forceDockerAuthentication 
+
+}
+localRepository('docker-v1-dev') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'simple-default'
+  propertySets (['artifactory'])
+  archiveBrowsingEnabled false
+  blackedOut false
+
+  packageType 'docker'
+
+  dockerApiVersion 'V1'
+  forceDockerAuthentication 
+
+}
